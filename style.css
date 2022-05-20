@@ -1,0 +1,12 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+
+
+
+:root{
+    --color1:#000000;
+    --color2:#161F30;
+    --color3:#202022;
+    --font1:'Titillium Web', sans-serif;
+
+}
