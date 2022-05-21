@@ -27,26 +27,68 @@ body{
     min-height: 100px;
     justify-content: space-between;
 }
-li{
-    display: inline-block;
-    font-family: var(--font1);
-    margin: 15px;
-    padding-top: 40px;
-    font-size: 1.2em;
-    font-weight: bold;
-    position: relative;
-    
-}
-svg{
-    position: absolute;
-    bottom: 22px;
-    right: 20px;
-}
-    
 header > h1{
     font-family: var(--font1);
     font-size: 1.9em;
     padding-left: 20px;
     line-height: 25px;
     padding-top: 30px;
+}
+li{
+    display: inline-block;
+    font-family: var(--font1);
+    margin: 15px;
+    padding-top: 40px;
+    font-size: 1.1em;
+    font-weight: bold;
+    position: relative;
+    
+}
+/**definindo tamanho e posição de ícones svg*/
+.inicio{
+    position: absolute;
+    bottom: 22px;
+    right: 16px;
+}
+.perfil{
+    position: absolute;
+    bottom: 22px;
+    right: 18px;
+}
+.bi{
+    position: absolute;
+    bottom: 22px;
+    right: 30px;
+}
+.excel{
+    position: absolute;
+    bottom: 22px;
+    right: 14px;
+}
+.point{
+    position: absolute;
+    bottom: 22px;
+    right: 50px;
+}
+/**definindo estilos da tag main**/
+
+.img{
+    max-width: 1250px;
+    height: 250px;
+    margin: auto;
+    margin-top: 10px;
+    background-image: url('componentes/imagens/backgraund01.jpg');
+    background-repeat: no-repeat;
+    background-position:right center;
+    background-size: 20%;
+    
+}
+.front{
+    max-width: 1250px;
+    height: 100vh;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: rgb(1, 1, 20);
+    color: white;
 }
