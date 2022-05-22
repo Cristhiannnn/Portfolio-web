@@ -74,21 +74,20 @@ li{
 
 .img{
     max-width: 1250px;
-    height: 250px;
+    height: 380px;
     margin: auto;
-    margin-top: 10px;
-    background-image: url('componentes/imagens/backgraund01.jpg');
+    background-image: url('componentes/imagens/backgraund001.jpg');
     background-repeat: no-repeat;
-    background-position:right center;
-    background-size: 20%;
+    background-size: 100%;
+    background-attachment: fixed;
+    
+    
     
 }
 .front{
     max-width: 1250px;
     height: 100vh;
     margin: auto;
-    border-radius: 10px;
-    margin-top: 10px;
     background-color: rgb(1, 1, 20);
     color: white;
 }
