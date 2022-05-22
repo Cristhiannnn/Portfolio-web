@@ -4,9 +4,13 @@
 
 
 :root{
-    --color1:#000000;
+    --color1:black;
     --color2:#161F30;
     --color3:#202022;
+    --color4:#000687;
+    --color5:#71B8E0;
+    --color6:#F7F7F7;
+
     --font1:'Titillium Web', sans-serif;
 
 }
@@ -76,8 +80,9 @@ li{
     max-width: 1250px;
     height: 380px;
     margin: auto;
-    background-image: url('componentes/imagens/backgraund001.jpg');
+    background-image: url('componentes/imagens/backgraund1.jpg');
     background-repeat: no-repeat;
+    background-position:center center;
     background-size: 100%;
     background-attachment: fixed;
     
@@ -88,6 +93,6 @@ li{
     max-width: 1250px;
     height: 100vh;
     margin: auto;
-    background-color: rgb(1, 1, 20);
+    background-color: var(--color6);
     color: white;
 }
