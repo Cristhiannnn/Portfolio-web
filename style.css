@@ -19,17 +19,19 @@
     padding: 0px;
     margin: 0px;
 }
-body{
-    background-color: var(--color1);
+html,body{
+    background-color: darkgray;
+    min-height: 100vh;
     
 
 }
 #perfil{
-    background-color: var(--color2);
+    background-color: var(--color1);
     color: white;
     display: flex;
     min-height: 100px;
     justify-content: space-between;
+    
 }
 header > h1{
     font-family: var(--font1);
@@ -78,21 +80,40 @@ li{
 
 .img{
     max-width: 1250px;
-    height: 380px;
+    height: 300px;
     margin: auto;
     background-image: url('componentes/imagens/backgraund1.jpg');
     background-repeat: no-repeat;
     background-position:center center;
     background-size: 100%;
-    background-attachment: fixed;
+    background-attachment: fixed;   
+}
+section > p.indicador{
+    display: block;
+    padding-left: 50px;
+    padding-top: 50px;
+    color: white;
+    font-size: 1.3em;
+    font-family: var(--font1);
+    font-weight: bold;
     
-    
-    
+
 }
 .front{
     max-width: 1250px;
     height: 100vh;
     margin: auto;
-    background-color: var(--color6);
+    background-color: var(--color3);
     color: white;
+    display: flex;
+}
+section.front >p{
+    display: block;
+    font-size: 2.5em;
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 3px rgba(0, 0, 0, 0.137);
+    background-color:rgba(0, 0, 0, 0.002);
+    margin-top: 200px;
 }
