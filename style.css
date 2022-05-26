@@ -42,7 +42,7 @@ header > h1{
     line-height: 30px;
     padding-top: 30px;
 }
-li{
+li {
     display: inline-block;
     font-family: var(--font1);
     margin: 15px;
@@ -50,7 +50,16 @@ li{
     font-size: 1.1em;
     font-weight: bold;
     position: relative;
-    
+}
+li>a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+li >a:hover{
+    text-decoration: underline;
+    color: #01EBEC;
 }
 /**definindo tamanho e posição de ícones svg*/
 .inicio{
@@ -96,13 +105,27 @@ li{
     height: 100vh;
     margin: auto;
     background-color: var(--color2);
-    color: white;
     display: flex;
 }
-section.front >h1{
+.wellcome{
+    max-width: 500px;
+    padding-top: 100px;
+    margin-left: 30px;
+}
+section.front>div >h1{
     font-family: var(--font2);
-    font-size: 3em;
-    padding: 100px 80px;
+    font-size: 3.6em;
+    
+}
+section.front>div>p{
+    color: white;
+    font-family: var(--font2);
+    font-size: 2.1em;
+    padding-top: 20px;
+    
+    
+    
+
 }
 section.front>div{
     width: 250;
