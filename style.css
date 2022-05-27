@@ -31,8 +31,9 @@ html,body{
     background-color: var(--color3);
     color: white;
     display: flex;
-    min-height: 100px;
+    height: 17vh;
     justify-content: space-between;
+    align-items: center;
     
 }
 header > h1{
@@ -50,6 +51,7 @@ li {
     font-size: 1.1em;
     font-weight: bold;
     position: relative;
+    list-style:none;
 }
 li>a{
     color: white;
@@ -57,35 +59,39 @@ li>a{
     padding: 5px;
     border-radius: 10px;
 }
+li >a.active,
 li >a:hover{
     text-decoration: underline;
-    color: #01EBEC;
+    color: #a4e3e3e9;
 }
 /**definindo tamanho e posição de ícones svg*/
 .inicio{
     position: absolute;
     bottom: 22px;
-    right: 16px;
+    right: 19px;
 }
 .perfil{
     position: absolute;
     bottom: 22px;
-    right: 18px;
+    right: 22px;
 }
 .bi{
     position: absolute;
     bottom: 22px;
-    right: 30px;
+    right: 32px;
 }
 .excel{
     position: absolute;
     bottom: 22px;
-    right: 14px;
+    right: 17px;
 }
 .point{
     position: absolute;
     bottom: 22px;
-    right: 50px;
+    right: 54px;
+}
+.menu-mobile{
+    display: none;
 }
 /**definindo estilos da tag main*/
 
@@ -146,4 +152,15 @@ footer >p{
     text-align: center;
     margin: auto;
 }
+
+@media (max-width:800px){
+    .menu{
+        display: none;
+    }
+    .menu-mobile{
+        display: block;
+    }
+}
+    
+
 
