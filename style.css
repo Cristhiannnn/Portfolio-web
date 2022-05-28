@@ -34,6 +34,7 @@ html,body{
     height: 17vh;
     justify-content: space-between;
     align-items: center;
+    position: relative;
     
 }
 header > h1{
@@ -42,6 +43,10 @@ header > h1{
     padding-left: 20px;
     line-height: 30px;
     padding-top: 30px;
+}
+.menu{
+    display: flex;
+    align-items: center;
 }
 li {
     display: inline-block;
@@ -92,6 +97,10 @@ li >a:hover{
 }
 .menu-mobile{
     display: none;
+    margin: 0px 10px;
+    background-color: transparent;
+    border: none;
+    
 }
 /**definindo estilos da tag main*/
 
@@ -153,14 +162,5 @@ footer >p{
     margin: auto;
 }
 
-@media (max-width:800px){
-    .menu{
-        display: none;
-    }
-    .menu-mobile{
-        display: block;
-    }
-}
-    
 
 
