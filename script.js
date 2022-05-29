@@ -1,4 +1,1 @@
 
-function click(){
-    alert("testando")
-}
