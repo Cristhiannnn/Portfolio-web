@@ -59,7 +59,7 @@ li {
     list-style:none;
 }
 li>a{
-    color: white;
+    color:white;
     text-decoration: none;
     padding: 5px;
     border-radius: 10px;
@@ -67,7 +67,8 @@ li>a{
 li >a.active,
 li >a:hover{
     text-decoration: underline;
-    color: #a4e3e3e9;
+    color:#aaffff;
+    transition: 0.5s;
 }
 /**definindo tamanho e posição de ícones svg*/
 .inicio{
@@ -167,7 +168,7 @@ footer >p{
     .menu-mobile{
         display: block;
     }
-    .lista{
+    .menu >ul{
         display: none;
     }
     
