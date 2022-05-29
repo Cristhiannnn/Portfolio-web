@@ -31,7 +31,7 @@ html,body{
     background-color: var(--color3);
     color: white;
     display: flex;
-    height: 17vh;
+    max-height: 15vh;
     justify-content: space-between;
     align-items: center;
     position: relative;
@@ -42,7 +42,7 @@ header > h1{
     font-size: 1.9em;
     padding-left: 20px;
     line-height: 30px;
-    padding-top: 30px;
+
 }
 .menu{
     display: flex;
@@ -100,13 +100,14 @@ li >a:hover{
     margin: 0px 10px;
     background-color: transparent;
     border: none;
+    cursor: pointer;
     
 }
 /**definindo estilos da tag main*/
 
 .img{
     max-width: 1250px;
-    height: 150px;
+    height: 180px;
     margin: auto;
     background-image: url('componentes/imagens/backgraund001.jpg');
     background-repeat: no-repeat;
@@ -160,6 +161,16 @@ footer >p{
     font-size: 0.9em;
     text-align: center;
     margin: auto;
+}
+
+@media screen and (max-width: 800px) {
+    .menu-mobile{
+        display: block;
+    }
+    .lista{
+        display: none;
+    }
+    
 }
 
 
