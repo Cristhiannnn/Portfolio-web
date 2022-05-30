@@ -102,6 +102,18 @@ li >a:hover{
     background-color: transparent;
     border: none;
     cursor: pointer;
+}
+.close-menu{
+    display: block;
+    margin: 0px 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.mob{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color3);
     
 }
 /**definindo estilos da tag main*/
