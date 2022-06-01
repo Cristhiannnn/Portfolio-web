@@ -48,7 +48,7 @@ header > h1{
     display: flex;
     align-items: center;
 }
-li {
+.list {
     display: inline-block;
     font-family: var(--font1);
     margin: 15px;
@@ -104,17 +104,14 @@ li >a:hover{
     cursor: pointer;
 }
 .close-menu{
-    display: block;
+    display: none;
     margin: 0px 10px;
     background-color: transparent;
     border: none;
     cursor: pointer;
 }
 .mob{
-    display: flex;
-    flex-direction: column;
-    background-color: var(--color3);
-    
+    display: none;
 }
 /**definindo estilos da tag main*/
 
@@ -180,8 +177,14 @@ footer >p{
     .menu-mobile{
         display: block;
     }
-    .menu >ul{
+    .desktop{
         display: none;
+    }
+    .mob{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: var(--color3);
     }
     
 }
