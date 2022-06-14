@@ -181,10 +181,14 @@ footer >p{
         display: none;
     }
     .mob{
-        display: flex;
+        display: block;
         flex-direction: column;
         text-align: center;
+        line-height: 3em;
         background-color: var(--color3);
+    }
+    .close-menu{
+        display: block;
     }
     
 }
