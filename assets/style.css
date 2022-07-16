@@ -119,7 +119,7 @@ li >a:hover{
     max-width: 1250px;
     height: 180px;
     margin: auto;
-    background-image: url('componentes/imagens/backgraund001.jpg');
+    background-image: url('../componentes/imagens/backgraund001.jpg');
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size:cover;
