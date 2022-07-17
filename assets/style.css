@@ -20,7 +20,7 @@
     margin: 0px;
 }
 html,body{
-    background-color:white;
+    background-color:var(--color2);
     min-height: 100vh;
     max-width: 1400px;
     margin: auto;
@@ -70,53 +70,26 @@ li >a:hover{
     color:#aaffff;
     transition: 0.5s;
 }
-/**definindo tamanho e posição de ícones svg*/
-.inicio{
-    position: absolute;
-    bottom: 22px;
-    right: 19px;
-}
-.perfil{
-    position: absolute;
-    bottom: 22px;
-    right: 22px;
-}
-.bi{
-    position: absolute;
-    bottom: 22px;
-    right: 32px;
-}
-.excel{
-    position: absolute;
-    bottom: 22px;
-    right: 17px;
-}
-.point{
-    position: absolute;
-    bottom: 22px;
-    right: 54px;
-}
+
 .menu-mobile{
     display: none;
     margin: 0px 10px;
     background-color: transparent;
+    color: white;
     border: none;
     cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
 }
-.close-menu{
-    display: none;
-    margin: 0px 10px;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
+
 .mob{
     display: none;
+    
 }
 /**definindo estilos da tag main*/
 
 .img{
-    max-width: 1250px;
+    max-width: 1400px;
     height: 180px;
     margin: auto;
     background-image: url('../componentes/imagens/backgraund001.jpg');
@@ -127,7 +100,7 @@ li >a:hover{
 }
 
 .front{
-    max-width: 1250px;
+    max-width: 1400px;
     height: 100vh;
     margin: auto;
     background-color: var(--color2);
@@ -161,7 +134,7 @@ section.front>div{
 footer{
     display: flex;
     background-color: var(--color3);
-    max-width: 1250px;
+    max-width: 1400px;
     margin: auto;
     padding:7px 0px 7px 0px;
 }
@@ -176,22 +149,38 @@ footer >p{
 @media screen and (max-width: 800px) {
     .menu-mobile{
         display: block;
+        
     }
     .desktop{
         display: none;
     }
     .mob{
         display: block;
-        flex-direction: column;
-        text-align: center;
+        flex-direction:column;
         line-height: 3em;
         background-color: var(--color3);
+        color: white;
+        width: 135px;
+        margin: auto;
+        list-style: none;
+        font-family: var(--font1);
+        font-weight: bold;
+
+        }
+    .caixamob{
+        background-color: var(--color3);
+        
     }
-    .close-menu{
-        display: block;
+    .fa-solid fa-bars{
+        color: white;
     }
     
-}
+    
+        
+    }
+    
+    
+
 
 
 
