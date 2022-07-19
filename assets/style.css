@@ -51,9 +51,9 @@ header > h1{
 .list {
     display: inline-block;
     font-family: var(--font1);
-    margin: 15px;
+    margin: 10px;
     padding-top: 40px;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: bold;
     position: relative;
     list-style:none;
