@@ -131,6 +131,32 @@ section.front>div{
     height: 350;
     margin-top: 60px;
 }
+
+.contatos{
+    max-width: 400px;
+    border: 1px solid white;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.contatos >h2{
+    color: white;
+    font-size: 1.2em;
+    font-family: var(--font2);
+    text-align: center;
+}
+.sociais > li{
+    border: 1px solid white;
+    
+}
+.sociais i {
+
+    color: white;
+    font-size: 2.5em;
+    
+
+    
+}
 footer{
     display: flex;
     background-color: var(--color3);
@@ -146,38 +172,70 @@ footer >p{
     margin: auto;
 }
 
-@media screen and (max-width: 800px) {
-    .menu-mobile{
-        display: block;
-        
+@media screen and (max-width: 760px) {
+    header >h1 {
+        font-size: 1.5em;
     }
+    
     .desktop{
-        display: none;
-    }
-    .mob{
         display: block;
-        flex-direction:column;
-        line-height: 3em;
-        background-color: var(--color3);
-        color: white;
-        width: 135px;
-        margin: auto;
-        list-style: none;
-        font-family: var(--font1);
-        font-weight: bold;
-
+    
+    
+    }
+        
+    }
+   
+     @media screen and ( max-width: 750px) { 
+        .desktop{
+            display: none;
         }
-    .caixamob{
-        background-color: var(--color3);
-        
-    }
-    .fa-solid fa-bars{
-        color: white;
-    }
+        .menu-mobile{
+            display: block;
+        }
+
+        .mob{
+            display: none;
+            flex-direction:column;
+            line-height: 3em;
+            background-color: var(--color3);
+            color: white;
+            width: 135px;
+            margin: auto;
+            list-style: none;
+            font-family: var(--font1);
+            font-weight: bold;
     
-    
+            }
+
+            .caixamob{
+                background-color: var(--color3);
+            }
+
+            .fa-solid fa-bars{
+                color: white;
+            }
+            .open{
+                display: block;
+            }
+
+            section.front>div >h1{
+                font-size: 3em;
+                
+            }
+            section.front>div>p{
+                font-size: 1.5em;
+                
+                
+                
+                
+            
+            }
+
+
         
-    }
+     }
+        
+     
     
     
 
