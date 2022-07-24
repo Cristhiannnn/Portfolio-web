@@ -133,8 +133,7 @@ section.front>div{
 }
 
 .contatos{
-    max-width: 400px;
-    border: 1px solid white;
+    max-width: 250px;
     margin: auto;
     padding-bottom: 30px;
 }
@@ -145,17 +144,22 @@ section.front>div{
     font-family: var(--font2);
     text-align: center;
 }
-.sociais > li{
-    border: 1px solid white;
-    
-}
 .sociais i {
 
     color: white;
-    font-size: 2.5em;
+    font-size: 2.2em;
+    margin: 4px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.342);
+    border-radius: 2px;
     
-
     
+}
+.sociais{
+    display: flex;
+    max-width: 150px;
+    margin: auto;
+    padding: 5px;
+    list-style: none;
 }
 footer{
     display: flex;
@@ -225,16 +229,15 @@ footer >p{
             section.front>div>p{
                 font-size: 1.5em;
                 
-                
-                
-                
-            
             }
+        }
 
-
-        
-     }
-        
+        @media screen and ( max-width: 600px){
+            .front .imagem{
+                margin-top: 150px;
+                max-height: 300px
+        }
+    }
      
     
     

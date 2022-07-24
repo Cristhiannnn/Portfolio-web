@@ -44,7 +44,9 @@
             
         </section>
         <section class="front">
-            <div class="imagem"><img src="componentes/imagens/fotoperfil-tr.png" alt="minha foto de perfil"></div>
+            <div class="imagem"><picture>
+                <source media="(max-width:600px)" srcset="componentes/imagens/fotoperfil-tr-m.png" type="image/png">
+                <img src="componentes/imagens/fotoperfil-tr.png" alt="minha foto de perfil"></picture></div>
             
                 <div class="wellcome">
                     <h1><span style="color: var(--color1);">Seja bem vindo(a)!</span></h1>
@@ -55,9 +57,11 @@
         <div class="contatos">
             <h2>CANAIS DE CONTATO:</h2>
             <ul class="sociais">
-                <li><i class="fa-brands fa-linkedin"></i></li>
-                <li><i class="fa-brands fa-whatsapp-square"></i></li>
-                <li><i class="fa-brands fa-github-square"></i></li>
+                <li><a href="https://www.linkedin.com/in/cristhian-rodrigues-b6ab17221/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                
+                <li><a href="#"><i class="fa-brands fa-whatsapp-square"></i></a></li>
+                
+                <li><a href="https://github.com/Cristhiannnn" target="_blank"><i class="fa-brands fa-github-square"></i></a></li>
             </ul>
         </div>
     </main>
