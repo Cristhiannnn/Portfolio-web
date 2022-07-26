@@ -82,8 +82,30 @@ li >a:hover{
     padding: 10px;
 }
 
-.mob{
+.caixamob{
     display: none;
+    
+    
+}
+.perfilcirc{
+    border: 1px solid white;
+    width: 300px;
+    margin: auto;
+    padding-top: 50px;
+    
+}
+.perfilcirc img{
+    display: block;
+    width: 120px;
+    right: 120px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.mob-list{
+    display: block;
+    border: 1px solid white;
+    width: 130px;
+    margin: auto;
     
 }
 /**definindo estilos da tag main*/
@@ -198,16 +220,18 @@ footer >p{
         }
 
         .mob{
-            display: none;
+            display: block;
             flex-direction:column;
             line-height: 3em;
             background-color: var(--color3);
             color: white;
-            width: 135px;
+            width: 300px;
+            border: 1px solid white;
             margin: auto;
             list-style: none;
             font-family: var(--font1);
             font-weight: bold;
+            padding-top: 30px;
     
             }
 
@@ -237,6 +261,20 @@ footer >p{
                 margin-top: 150px;
                 max-height: 300px
         }
+    }
+    @media screen and ( max-width: 500px){
+        .imagem{
+            display: none;
+        }
+        section.front>div >h1{
+            font-size: 2.3em;
+            
+        }
+        section.front>div>p{
+            font-size: 1.5em;
+            
+        }
+
     }
      
     

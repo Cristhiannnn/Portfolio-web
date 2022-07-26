@@ -1,6 +1,6 @@
 
 function openNav(){
-    let mob = document.querySelector('.mob'); /* manipulando o menu mobile através do DOM*/
+    let mob = document.querySelector('.caixamob'); /* manipulando o menu mobile através do DOM*/
 
     if (mob.classList.contains('open')) {
         mob.classList.remove('open');
