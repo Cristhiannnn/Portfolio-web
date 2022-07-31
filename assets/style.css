@@ -187,6 +187,16 @@ section.front>div{
     padding: 5px;
     list-style: none;
 }
+.inc{
+    background-color: white;
+    border: 1px solid black;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 3px;
+    padding: 10px 20px 10px 20px;
+    height: 100vh;
+}
+/** definindo estilos do rodapé**/
 footer{
     display: flex;
     background-color: var(--color3);
