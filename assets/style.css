@@ -201,6 +201,7 @@ section.front>div{
     font-family: var(--font1);
     color: var(--color3);
     margin: 30px 0 30px 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.534);
 }
 .inc p{
     font-family: var(--font3);
@@ -217,19 +218,15 @@ section.front>div{
     font-family: var(--font3);
 
 }
-/**
-.elementos{
-    display: flex;
-    justify-content: start;
-    
-}
-**/
+
 .cursos{
+    display: inline-block;
     border: 3px solid var(--color1);
-    max-width: 300px;
+    width: 300px;
     margin-top: 20px;
     border-radius: 5px;
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.356);
+    
 }
 .cursos li{
     list-style: none;
@@ -240,9 +237,7 @@ section.front>div{
     
 }
 .android{
-    border: 1px solid black;
-    width: 150px;
-
+    display: inline-block;
 }
 
 /** definindo estilos do rodapé**/
