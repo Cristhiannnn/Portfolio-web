@@ -34,7 +34,8 @@ html,body{
     max-height: 15vh;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    position: sticky;
+
     
 }
 header > h1{
@@ -190,12 +191,60 @@ section.front>div{
 .inc{
     background-color: white;
     border: 1px solid black;
-    max-width: 800px;
+    max-width: 950px;
     margin: auto;
     border-radius: 3px;
     padding: 10px 20px 10px 20px;
-    height: 100vh;
+
 }
+.inc h1{
+    font-family: var(--font1);
+    color: var(--color3);
+    margin: 30px 0 30px 0;
+}
+.inc p{
+    font-family: var(--font3);
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 1.5em;
+}
+.inc h2{
+    font-family: var(--font1);
+    font-size: 1.2em;
+    margin: 30px 0 15px 0;
+}
+.inc h3{
+    font-family: var(--font3);
+
+}
+/**
+.elementos{
+    display: flex;
+    justify-content: start;
+    
+}
+**/
+.cursos{
+    border: 3px solid var(--color1);
+    max-width: 300px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.356);
+}
+.cursos li{
+    list-style: none;
+    font-family: var(--font3);
+    font-size: 1.1em;
+    margin-left: 15px;
+    line-height: 1.5em;
+    
+}
+.android{
+    border: 1px solid black;
+    width: 150px;
+
+}
+
 /** definindo estilos do rodapé**/
 footer{
     display: flex;
