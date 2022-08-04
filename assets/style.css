@@ -34,7 +34,6 @@ html,body{
     max-height: 15vh;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
 
     
 }
@@ -64,12 +63,6 @@ li>a{
     text-decoration: none;
     padding: 5px;
     border-radius: 10px;
-}
-li >a.active,
-li >a:hover{
-    text-decoration: underline;
-    color:#aaffff;
-    transition: 0.5s;
 }
 
 .menu-mobile{
@@ -240,8 +233,7 @@ section.front>div{
 }
 
 .android{
-    display: inline-block;
-    margin: 5px;
+    height: 130px;
 
 }
 
@@ -254,7 +246,11 @@ section.front>div{
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.356);
 }
 .elementos{
-    border: 2px solid green;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items:flex-end;
+    padding-bottom: 50px;
 }
 .icon{
     font-size: 2em;
@@ -262,13 +258,10 @@ section.front>div{
     color: var(--color1);
 }
 .bloco1{
-    display: inline-block;
-    border: 1px solid red;
+    
 }
 .bloco2{
-    display: inline-block;
-    border: 1px solid black;
-    position: relative;
+    
 }
 .bloco2 li{
     list-style: none;
@@ -377,6 +370,9 @@ footer >p{
         section.front>div>p{
             font-size: 1.5em;
             
+        }
+        .bloco1{
+
         }
 
     }
