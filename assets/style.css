@@ -20,9 +20,10 @@
     margin: 0px;
 }
 html,body{
+    border: 1px solid white;
     background-color:var(--color2);
     min-height: 100vh;
-    max-width: 1400px;
+    max-width: 1000px;
     margin: auto;
     
 
@@ -32,6 +33,9 @@ html,body{
     color: white;
     display: flex;
     max-height: 15vh;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 5px;
     justify-content: space-between;
     align-items: center;
 
@@ -109,7 +113,7 @@ li>a{
 /**definindo estilos da tag main*/
 
 .img{
-    max-width: 1400px;
+    max-width: 1000px;
     height: 180px;
     margin: auto;
     background-image: url('../componentes/imagens/backgraund001.jpg');
@@ -120,7 +124,7 @@ li>a{
 }
 
 .front{
-    max-width: 1400px;
+    max-width: 1000px;
     height: 100vh;
     margin: auto;
     background-color: var(--color2);
@@ -184,7 +188,7 @@ section.front>div{
 .inc{
     background-color: white;
     border: 1px solid black;
-    max-width: 950px;
+    max-width: 1000px;
     margin: auto;
     border-radius: 3px;
     padding: 10px 20px 10px 20px;
@@ -211,6 +215,7 @@ section.front>div{
 
 .cursos{
     border: 3px solid var(--color1);
+    margin: auto;
     width: 280px;
     height: 168px;
     padding: 15px;
@@ -233,11 +238,15 @@ section.front>div{
 }
 
 .android{
+    border: 1px solid pink;
     height: 130px;
+    width: 140px;
+    
 
 }
 
 .destaques{
+    margin: auto;
     border: 3px solid var(--color1);
     width: 280px;
     height: 168px;
@@ -258,10 +267,15 @@ section.front>div{
     color: var(--color1);
 }
 .bloco1{
+    border: 1px solid green;
+    width: 340px;
+    
+    
     
 }
 .bloco2{
-    
+    border: 1px solid green;
+    width: 340px;   
 }
 .bloco2 li{
     list-style: none;
@@ -281,7 +295,7 @@ section.front>div{
 footer{
     display: flex;
     background-color: var(--color3);
-    max-width: 1400px;
+    max-width: 1000px;
     margin: auto;
     padding:7px 0px 7px 0px;
 }
