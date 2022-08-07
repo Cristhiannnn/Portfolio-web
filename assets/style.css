@@ -28,10 +28,12 @@ html,body{
 
 }
 #perfil{
+    position:fixed;
+    width: 100%;
     background-color: var(--color3);
     color: white;
     display: flex;
-    max-height: 15vh;
+    max-height: 10vh;
     max-width: 1000px;
     margin: auto;
     border-radius: 5px;
@@ -42,7 +44,7 @@ html,body{
 }
 header > h1{
     font-family: var(--font2);
-    font-size: 1.9em;
+    font-size: 1.6em;
     padding-left: 20px;
     line-height: 30px;
 
@@ -55,7 +57,6 @@ header > h1{
     display: inline-block;
     font-family: var(--font1);
     margin: 10px;
-    padding-top: 40px;
     font-size: 1em;
     font-weight: bold;
     position: relative;
@@ -103,7 +104,7 @@ main{
     width: 120px;
     right: 120px;
     margin: auto;
-    padding-bottom: 20px;
+    padding: 30px 0;
     border-radius: 50%;
     
 }
@@ -195,7 +196,7 @@ section.front>div{
     max-width: 1000px;
     margin: auto;
     border-radius: 3px;
-    padding: 10px 20px 10px 20px;
+    padding: 60px 20px 10px 20px;
 
 }
 .inc h1{
@@ -220,9 +221,10 @@ section.front>div{
 .cursos{
     border: 3px solid var(--color1);
     margin: auto;
-    width: 280px;
+    
+    width: 314px;
+    padding: 15px 0 15px 0;
     height: 168px;
-    padding: 15px;
     border-radius: 5px;
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.356);
     
@@ -242,9 +244,8 @@ section.front>div{
 }
 
 .android{
-    border: 1px solid pink;
     height: 130px;
-    width: 140px;
+    max-width: 140px;
     
 
 }
@@ -252,8 +253,8 @@ section.front>div{
 .destaques{
     margin: auto;
     border: 3px solid var(--color1);
-    width: 280px;
-    height: 168px;
+    max-width: 280px;
+    max-height: 250px;
     padding: 15px;
     border-radius: 5px;
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.356);
@@ -271,16 +272,14 @@ section.front>div{
     color: var(--color1);
 }
 .bloco1{
-    border: 1px solid green;
-    width: 340px;
+    max-width: 320px;
     height: 340px;
     
     
     
 }
 .bloco2{
-    border: 1px solid green;
-    width: 340px; 
+    max-width: 340px; 
     height: 340px;  
 }
 .bloco2 li{
@@ -295,6 +294,33 @@ section.front>div{
 .bloco2 li i{
     color: var(--color1);
     margin: 0 5px 0 5px;
+}
+.dashboard{
+    background-color: white;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 3px;
+    padding: 60px 20px 10px 20px;
+}
+.dashboard h2{
+    font-family: var(--font1);
+    color: var(--color3);
+    padding-top: 50px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.534);
+}
+.dashboard p{
+    font-family: var(--font3);
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 1.5em;
+    padding: 40px 0;
+}
+.dashboard img{
+    display: block;
+    width: 99%;
+    margin: auto;
+    border: 1px solid var(--color2);
+    border-radius: 5px;
 }
 
 /** definindo estilos do rodapé**/
@@ -323,6 +349,22 @@ footer >p{
     
     
     }
+    .elementos{
+        display: block;
+    }
+    .bloco1{
+        margin: auto;
+    }
+    
+    .android{
+        max-width: 320px;
+        margin: auto;
+        text-align: center;
+    }
+    .bloco2{
+        max-width: 320px;
+        margin: auto;   
+    }
         
     }
    
@@ -340,12 +382,12 @@ footer >p{
             line-height: 3em;
             background-color: var(--color3);
             color: white;
-            width: 300px;
+            max-width: 300px;
             margin: auto;
             list-style: none;
             font-family: var(--font1);
             font-weight: bold;
-            padding-top: 30px;
+            padding-top: 60px;
     
             }
 

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="../assets/style.css">
+<script src="../projetos-html5/script.js"></script>
+    <link rel="shortcut icon" href="../componentes/imagens/icones-redm/favicon.ico" type="image/x-icon">
+    <script type="text/javascript" src="../assets/script.js"></script>
+    <script src="https://kit.fontawesome.com/f8b9b0a7e5.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    li >a.activ,
+li >a:hover{
+    text-decoration: underline;
+    color:#aaffff;
+    transition: 0.5s;
+}
+</style>
+<body>
+    <header id="perfil">
+        <H1>MEU <br>PORTFÓLIO</H1>
+        <nav class="menu">
+            <ul class="desktop">
+                <li class="list"><i class="fa-solid fa-user"></i><a  href="#" target="_self">PERFIL</a></li>
+                <li class="list"><i class="fa-solid fa-house"></i><a href="#" target="_self">INICIO</a></li>
+                <li class="list"><i class="fa-solid fa-folder-open"></i><a class="activ" href="#" target="_self">POWER BI</a></li>
+                <li class="list"><i class="fa-solid fa-folder-open"></i><a href="#" target="_self">EXCEL</a></li>
+                <li class="list"><i class="fa-solid fa-folder-open"></i><a href="#" target="_self">POWER POINT</a></li>
+                
+            </ul>
+            <button class="menu-mobile" onclick="openNav()">
+                <i id="menuBarra" class="fa-solid fa-bars"></i>
+                
+            </button>
+        </nav>
+    </header>
+    <div class="caixamob">
+        <div class="perfilcirc">
+            <img src="componentes/imagens/perfil3x4.png" alt="minha foto de perfil">
+        </div>
+            
+        <ul class="mob">
+            <li class="mob-list"><i class="fa-solid fa-user"></i><a href="#" target="_self">PERFIL</a></li>
+            <li class="mob-list"><i class="fa-solid fa-house"></i><a href="#" target="_self">INICIO</a></li>
+            <li class="mob-list"><i class="fa-solid fa-folder-open"></i><a class="activ" href="#" target="_self">POWER BI</a></li>
+            <li class="mob-list"><i class="fa-solid fa-folder-open"></i><a href="#" target="_self">EXCEL</a></li>
+            <li class="mob-list"><i class="fa-solid fa-folder-open"></i><a href="#" target="_self">POWER POINT</a></li>
+        </ul>
+    </div>
+    <main>
+        <section class="dashboard">
+            <h2>Dashboard monitoramento de inovações.</h2>
+        <p>
+           Desenvolvi este dashboard em <strong>power BI</strong>, com o objetivo de monitorar quatro <strong>inovações</strong> na categoria de lava roupas, estes <strong>Sku's</strong> monitorados fazem parte de um projeto extremamente importante e revolucionário. O acompanhamento de performance nos primeiros meses de ativação, foram cruciais para alavancar as vendas e apresentar de forma eficiente as inovações ao <strong>público</strong>.       
+        </p>
+        <picture>
+            
+                <source media="(max-width:400px )" srcset="../componentes/imagens/bi/power-bi-1-peq.png" type="
+                image/png">
+                <source media="(max-width:700px )" srcset="../componentes/imagens/bi/power-bi-1-media.png" type="
+                image/png">
+                <img src="../componentes/imagens/bi/power-bi-1-grande.png" alt="Dashboard power BI">
+            
+        </picture>
+        </section>
+
+
+    </main>
+    <footer>
+        <p>Site desenvolvido por Cristhian Rodrigues.</p>
+    </footer>
+    
+</body>
+</html>
