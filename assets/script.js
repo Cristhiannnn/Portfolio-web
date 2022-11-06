@@ -8,3 +8,5 @@ function openNav(){
         mob.classList.add ('open');
     } /* estrutura condicional para verificar , remover ou adicioanar a classe (.open) */
 } 
+
+
