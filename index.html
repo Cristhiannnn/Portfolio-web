@@ -61,7 +61,7 @@
             
                 <div class="wellcome">
                     <h1><span style="color: var(--color1);">Seja bem vindo(a)!</span></h1>
-                    <p>Eu sou Cristhian Rodrigues,<br>fique a vontade para navegar neste portfólio.</p>
+                    <p>Eu sou Cristhian Rodrigues, fique a vontade para navegar neste portfólio.</p>
                 </div>
         
         </section>
@@ -79,6 +79,24 @@
     <footer>
         <p>Site desenvolvido por Cristhian Rodrigues.</p>
     </footer>
+
+    <script>
+
+        function typeWrite(elemento){
+            const textoArray = elemento.innerHTML.split('');
+            elemento.innerHTML = '';
+            textoArray.forEach((letra, i) =>{
+                setTimeout(function(){
+                    elemento.innerHTML += letra;
+                },75 * i)
+            });
+
+        }
+
+
+        const titulo = document.querySelector('.wellcome>p');
+        typeWrite(titulo);
+    </script>
     
 </body>
 </html>
