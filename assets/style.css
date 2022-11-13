@@ -33,7 +33,7 @@ html,body{
     background-color: var(--color3);
     color: white;
     display: flex;
-    max-height: 10vh;
+    height: 60px;
     max-width: 1000px;
     margin: auto;
     border-radius: 5px;
@@ -456,14 +456,20 @@ footer >p{
                 margin-top: 150px;
                 max-height: 300px
         }
-    }
-    @media screen and ( max-width: 500px){
+
         .imagem{
             display: none;
         }
         .perfilcirc{
             display: block;
         }
+
+
+            
+        
+    }
+    @media screen and ( max-width: 500px){
+        
         section.front>div >h1{
             font-size: 2.3em;
             
@@ -482,20 +488,7 @@ footer >p{
             font-family: var(--font2);
             font-size: 3 em;
             
-        }
-
-        #perfil{
-            max-height: 12vh;
-        }
-
-        .contatos{
-            
-            padding-top: 50px;
-
-        }
-
-        
-        
+        }        
         
 
     }
